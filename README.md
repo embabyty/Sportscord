@@ -58,6 +58,21 @@ while keeping them solid enough to read over a dark wallpaper
 (use a dark wallpaper — bright ones will wash text out).
 Tune the percentages in the file to taste: higher = more solid.
 
+## macOS support
+
+The themes work on macOS with no extra setup. macOS intentionally uses
+the opaque team-tinted surfaces — no Mica, vibrancy, or extra blur is
+added. On `platform-osx` the themes pin `--glass-opacity` to `1` (so any
+Windows acrylic tuning is ignored), switch the frosted panels off
+`backdrop-filter`, and keep the native traffic lights clickable with a
+draggable title bar plus macOS font smoothing. Team colors, the home-button
+logo, and layout are unchanged.
+
+On macOS the UI font switches to
+[Google Sans](https://fonts.google.com/specimen/Google+Sans) (weights
+400/500/700, loaded from Google Fonts at the top of each theme file);
+other platforms keep Discord's default font.
+
 ## Customize
 
 Every theme exposes its palette as CSS variables, so you can tweak it in

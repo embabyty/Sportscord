@@ -16,6 +16,11 @@
  * Full-transparency dark-acrylic preset (QuickCSS): see presets/ in the repo.
  */
 
+/* Google Sans webfont (https://fonts.google.com/specimen/Google+Sans).
+ * Loaded once here but applied ONLY on macOS via the html.platform-osx block
+ * at the end of this file — other platforms keep Discord's default font. */
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap");
+
 :root {
   --nfl-primary: #311D00;
   --nfl-secondary: #FF3C00;
@@ -238,4 +243,40 @@ html,
 [data-list-item-id="guildsnav___home"] [class*="childWrapper_"] > svg,
 [class*="tutorialContainer_"] [class*="childWrapper_"] > svg {
   display: none !important;
+}
+
+/* ===== macOS support (opaque, no mica / no blur) =====
+ * Vesktop/Vencord on macOS exposes no Acrylic/Mica background material, so
+ * this block deliberately adds NO vibrancy, mica, or backdrop blur. The theme
+ * keeps its normal opaque team-tinted surfaces; this only (1) switches the
+ * frosted panels to their solid fallback so nothing depends on OS
+ * transparency, (2) keeps the native traffic lights clickable and the window
+ * draggable, (3) enables macOS font smoothing, and (4) switches the UI font
+ * to Google Sans (see the @import at the top of this file) — macOS only.
+ * Team colors, logo, and layout are unchanged. */
+html.platform-osx {
+  --glass-opacity: 1;
+  --font-primary: "Google Sans", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  --font-display: "Google Sans", -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+html.platform-osx [class*="guilds_"],
+html.platform-osx [class*="sidebarList_"],
+html.platform-osx [class*="membersWrap_"] {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+html.platform-osx [class*="titleBar_"] {
+  -webkit-app-region: drag;
+}
+
+html.platform-osx [class*="titleBar_"] button,
+html.platform-osx [class*="titleBar_"] a {
+  -webkit-app-region: no-drag;
+}
+
+html.platform-osx body {
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
 }
