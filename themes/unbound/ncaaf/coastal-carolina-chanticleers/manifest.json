@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.coastal-carolina-chanticleers",
+  "name": "Sportscord • Coastal Carolina Chanticleers",
+  "description": "Coastal Carolina Chanticleers (CCU) — #006F71 accents with #A27752 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

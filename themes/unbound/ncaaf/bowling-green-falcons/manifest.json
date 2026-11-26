@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.bowling-green-falcons",
+  "name": "Sportscord • Bowling Green Falcons",
+  "description": "Bowling Green Falcons (BGSU) — #FD5000 accents with #4F2C1D links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

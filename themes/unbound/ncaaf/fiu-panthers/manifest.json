@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.fiu-panthers",
+  "name": "Sportscord • FIU Panthers",
+  "description": "FIU Panthers (FIU) — #091F3F accents with #C3993F links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

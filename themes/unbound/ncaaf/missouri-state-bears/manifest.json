@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.missouri-state-bears",
+  "name": "Sportscord • Missouri State Bears",
+  "description": "Missouri State Bears (MOST) — #5E0009 accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

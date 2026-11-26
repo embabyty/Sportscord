@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.new-york-knicks",
+  "name": "Sportscord • New York Knicks",
+  "description": "New York Knicks (NYK) — #006BB6 accents with #F58426 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

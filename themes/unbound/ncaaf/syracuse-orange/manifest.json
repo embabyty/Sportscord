@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.syracuse-orange",
+  "name": "Sportscord • Syracuse Orange",
+  "description": "Syracuse Orange (SYR) — #000E54 accents with #FF431B links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.virginia-tech-hokies",
+  "name": "Sportscord • Virginia Tech Hokies",
+  "description": "Virginia Tech Hokies (VT) — #6A2C3E accents with #CF4520 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

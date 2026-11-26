@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.new-mexico-lobos",
+  "name": "Sportscord • New Mexico Lobos",
+  "description": "New Mexico Lobos (UNM) — #BA0C2F accents with #A7A8AA links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

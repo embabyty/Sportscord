@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.san-diego-state-aztecs",
+  "name": "Sportscord • San Diego State Aztecs",
+  "description": "San Diego State Aztecs (SDSU) — #A6192E accents with #000000 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

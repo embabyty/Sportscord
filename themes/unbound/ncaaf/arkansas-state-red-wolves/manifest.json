@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.arkansas-state-red-wolves",
+  "name": "Sportscord • Arkansas State Red Wolves",
+  "description": "Arkansas State Red Wolves (ARST) — #CC092F accents with #000000 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

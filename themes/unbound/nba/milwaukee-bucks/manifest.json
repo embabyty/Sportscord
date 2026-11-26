@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.milwaukee-bucks",
+  "name": "Sportscord • Milwaukee Bucks",
+  "description": "Milwaukee Bucks (MIL) — #007A3D accents with #F0EBD2 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.portland-trail-blazers",
+  "name": "Sportscord • Portland Trail Blazers",
+  "description": "Portland Trail Blazers (POR) — #E03A3E accents with #BAC3C9 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.auburn-tigers",
+  "name": "Sportscord • Auburn Tigers",
+  "description": "Auburn Tigers (AUB) — #002B5C accents with #F26522 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.purdue-boilermakers",
+  "name": "Sportscord • Purdue Boilermakers",
+  "description": "Purdue Boilermakers (PUR) — #CEB888 accents with #000000 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

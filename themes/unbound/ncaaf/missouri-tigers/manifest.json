@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.missouri-tigers",
+  "name": "Sportscord • Missouri Tigers",
+  "description": "Missouri Tigers (MIZ) — #F1B82D accents with #000000 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

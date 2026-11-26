@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.wyoming-cowboys",
+  "name": "Sportscord • Wyoming Cowboys",
+  "description": "Wyoming Cowboys (WYO) — #492F24 accents with #FFC425 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

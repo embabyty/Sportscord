@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.utsa-roadrunners",
+  "name": "Sportscord • UTSA Roadrunners",
+  "description": "UTSA Roadrunners (UTSA) — #0C2340 accents with #F15A22 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

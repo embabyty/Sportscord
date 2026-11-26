@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.north-dakota-state-bison",
+  "name": "Sportscord • North Dakota State Bison",
+  "description": "North Dakota State Bison (NDSU) — #01402A accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

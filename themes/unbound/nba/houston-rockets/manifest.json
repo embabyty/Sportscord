@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.houston-rockets",
+  "name": "Sportscord • Houston Rockets",
+  "description": "Houston Rockets (HOU) — #CE1141 accents with #C4CED3 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

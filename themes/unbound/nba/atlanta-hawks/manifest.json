@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.atlanta-hawks",
+  "name": "Sportscord • Atlanta Hawks",
+  "description": "Atlanta Hawks (ATL) — #E13A3E accents with #C4D600 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

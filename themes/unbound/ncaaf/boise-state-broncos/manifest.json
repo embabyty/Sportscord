@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.boise-state-broncos",
+  "name": "Sportscord • Boise State Broncos",
+  "description": "Boise State Broncos (BOIS) — #0033A0 accents with #D64309 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

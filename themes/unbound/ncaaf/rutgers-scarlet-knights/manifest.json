@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.rutgers-scarlet-knights",
+  "name": "Sportscord • Rutgers Scarlet Knights",
+  "description": "Rutgers Scarlet Knights (RUTG) — #CE0E2D accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

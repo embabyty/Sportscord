@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.buffalo-bulls",
+  "name": "Sportscord • Buffalo Bulls",
+  "description": "Buffalo Bulls (BUF) — #005BBB accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

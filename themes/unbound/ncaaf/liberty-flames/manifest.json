@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.liberty-flames",
+  "name": "Sportscord • Liberty Flames",
+  "description": "Liberty Flames (LIB) — #0A254E accents with #B72025 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

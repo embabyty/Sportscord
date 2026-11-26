@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.north-texas-mean-green",
+  "name": "Sportscord • North Texas Mean Green",
+  "description": "North Texas Mean Green (UNT) — #068F33 accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

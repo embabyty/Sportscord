@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.texas-state-bobcats",
+  "name": "Sportscord • Texas State Bobcats",
+  "description": "Texas State Bobcats (TXST) — #501214 accents with #6A5638 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

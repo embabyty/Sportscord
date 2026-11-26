@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.charlotte-hornets",
+  "name": "Sportscord • Charlotte Hornets",
+  "description": "Charlotte Hornets (CHA) — #5933A5 accents with #008CA8 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.seattle-seahawks",
+  "name": "Sportscord • Seattle Seahawks",
+  "description": "Seattle Seahawks (SEA) — #69BE28 throughout. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.new-mexico-state-aggies",
+  "name": "Sportscord • New Mexico State Aggies",
+  "description": "New Mexico State Aggies (NMSU) — #7E141B accents with #231F20 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.nevada-wolf-pack",
+  "name": "Sportscord • Nevada Wolf Pack",
+  "description": "Nevada Wolf Pack (NEV) — #041E42 accents with #8A8D8F links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

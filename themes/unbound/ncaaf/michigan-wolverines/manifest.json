@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.michigan-wolverines",
+  "name": "Sportscord • Michigan Wolverines",
+  "description": "Michigan Wolverines (MICH) — #00274C accents with #FFCB05 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

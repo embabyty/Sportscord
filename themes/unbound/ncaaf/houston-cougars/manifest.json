@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.houston-cougars",
+  "name": "Sportscord • Houston Cougars",
+  "description": "Houston Cougars (HOU) — #C8102E accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

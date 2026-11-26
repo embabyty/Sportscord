@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.washington-wizards",
+  "name": "Sportscord • Washington Wizards",
+  "description": "Washington Wizards (WAS) — #E31837 accents with #C4CED4 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

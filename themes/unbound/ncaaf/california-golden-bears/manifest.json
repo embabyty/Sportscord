@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.california-golden-bears",
+  "name": "Sportscord • California Golden Bears",
+  "description": "California Golden Bears (CAL) — #041E42 accents with #FFC72C links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

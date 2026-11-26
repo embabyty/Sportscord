@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.los-angeles-chargers",
+  "name": "Sportscord • Los Angeles Chargers",
+  "description": "Los Angeles Chargers (LAC) — #0080C6 accents with #FFC20E links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

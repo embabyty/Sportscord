@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.kansas-state-wildcats",
+  "name": "Sportscord • Kansas State Wildcats",
+  "description": "Kansas State Wildcats (KSU) — #330A57 accents with #E2E3E4 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

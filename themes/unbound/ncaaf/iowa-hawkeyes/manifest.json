@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.iowa-hawkeyes",
+  "name": "Sportscord • Iowa Hawkeyes",
+  "description": "Iowa Hawkeyes (IOWA) — #231F20 accents with #FCD116 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

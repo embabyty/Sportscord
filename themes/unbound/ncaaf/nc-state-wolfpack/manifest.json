@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.nc-state-wolfpack",
+  "name": "Sportscord • NC State Wolfpack",
+  "description": "NC State Wolfpack (NCSU) — #CC0000 accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

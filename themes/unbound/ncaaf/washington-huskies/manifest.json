@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.washington-huskies",
+  "name": "Sportscord • Washington Huskies",
+  "description": "Washington Huskies (WASH) — #33006F accents with #E8D3A2 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

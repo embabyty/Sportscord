@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.uab-blazers",
+  "name": "Sportscord • UAB Blazers",
+  "description": "UAB Blazers (UAB) — #1A5632 accents with #FDB913 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.ole-miss-rebels",
+  "name": "Sportscord • Ole Miss Rebels",
+  "description": "Ole Miss Rebels (MISS) — #13294B accents with #CF142B links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

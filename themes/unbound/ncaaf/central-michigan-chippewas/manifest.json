@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.central-michigan-chippewas",
+  "name": "Sportscord • Central Michigan Chippewas",
+  "description": "Central Michigan Chippewas (CMU) — #4C0027 accents with #FBAB18 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

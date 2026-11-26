@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.brooklyn-nets",
+  "name": "Sportscord • Brooklyn Nets",
+  "description": "Brooklyn Nets (BKN) — #C4CED4 throughout. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

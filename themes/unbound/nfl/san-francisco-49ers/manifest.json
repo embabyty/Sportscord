@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.san-francisco-49ers",
+  "name": "Sportscord • San Francisco 49ers",
+  "description": "San Francisco 49ers (SF) — #AA0000 accents with #B3995D links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.florida-gators",
+  "name": "Sportscord • Florida Gators",
+  "description": "Florida Gators (FLA) — #0021A5 accents with #FA4616 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

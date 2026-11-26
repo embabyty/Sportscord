@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.oklahoma-city-thunder",
+  "name": "Sportscord • Oklahoma City Thunder",
+  "description": "Oklahoma City Thunder (OKC) — #007DC3 accents with #F05133 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

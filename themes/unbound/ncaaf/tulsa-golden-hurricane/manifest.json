@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.tulsa-golden-hurricane",
+  "name": "Sportscord • Tulsa Golden Hurricane",
+  "description": "Tulsa Golden Hurricane (TLSA) — #003595 accents with #D0B787 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

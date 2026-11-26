@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.washington-state-cougars",
+  "name": "Sportscord • Washington State Cougars",
+  "description": "Washington State Cougars (WSU) — #A60F2D accents with #4D4D4D links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

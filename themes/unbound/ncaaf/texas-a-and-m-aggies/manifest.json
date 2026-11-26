@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.texas-a-and-m-aggies",
+  "name": "Sportscord • Texas A&M Aggies",
+  "description": "Texas A&M Aggies (TA&M) — #500000 accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

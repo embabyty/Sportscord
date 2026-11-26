@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.toledo-rockets",
+  "name": "Sportscord • Toledo Rockets",
+  "description": "Toledo Rockets (TOL) — #0B2240 accents with #FFCD00 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

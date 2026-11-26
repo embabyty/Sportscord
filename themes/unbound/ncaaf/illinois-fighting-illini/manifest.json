@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.illinois-fighting-illini",
+  "name": "Sportscord • Illinois Fighting Illini",
+  "description": "Illinois Fighting Illini (ILL) — #FF5F05 accents with #13294B links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.los-angeles-lakers",
+  "name": "Sportscord • Los Angeles Lakers",
+  "description": "Los Angeles Lakers (LAL) — #FDB927 accents with #552582 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

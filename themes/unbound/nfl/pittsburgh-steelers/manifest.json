@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.pittsburgh-steelers",
+  "name": "Sportscord • Pittsburgh Steelers",
+  "description": "Pittsburgh Steelers (PIT) — #FFB612 throughout. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

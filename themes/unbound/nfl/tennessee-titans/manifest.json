@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.tennessee-titans",
+  "name": "Sportscord • Tennessee Titans",
+  "description": "Tennessee Titans (TEN) — #4B92DB accents with #C8102E links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

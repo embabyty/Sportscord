@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.usc-trojans",
+  "name": "Sportscord • USC Trojans",
+  "description": "USC Trojans (USC) — #9D2235 accents with #FFC72C links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

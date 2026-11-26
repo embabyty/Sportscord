@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.old-dominion-monarchs",
+  "name": "Sportscord • Old Dominion Monarchs",
+  "description": "Old Dominion Monarchs (ODU) — #003768 accents with #A1D2F1 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

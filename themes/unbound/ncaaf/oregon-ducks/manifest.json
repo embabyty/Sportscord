@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.oregon-ducks",
+  "name": "Sportscord • Oregon Ducks",
+  "description": "Oregon Ducks (ORE) — #00934B accents with #FFF41B links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

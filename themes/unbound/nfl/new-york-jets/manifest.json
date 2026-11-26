@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.new-york-jets",
+  "name": "Sportscord • New York Jets",
+  "description": "New York Jets (NYJ) — #125740 throughout. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

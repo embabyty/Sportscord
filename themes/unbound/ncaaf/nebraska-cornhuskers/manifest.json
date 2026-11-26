@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.nebraska-cornhuskers",
+  "name": "Sportscord • Nebraska Cornhuskers",
+  "description": "Nebraska Cornhuskers (NEB) — #E31937 accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

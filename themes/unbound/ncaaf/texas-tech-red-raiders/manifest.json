@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.texas-tech-red-raiders",
+  "name": "Sportscord • Texas Tech Red Raiders",
+  "description": "Texas Tech Red Raiders (TTU) — #DA291C accents with #000000 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

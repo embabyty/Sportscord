@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.detroit-lions",
+  "name": "Sportscord • Detroit Lions",
+  "description": "Detroit Lions (DET) — #0076B6 accents with #B0B7BC links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

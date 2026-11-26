@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.georgia-tech-yellow-jackets",
+  "name": "Sportscord • Georgia Tech Yellow Jackets",
+  "description": "Georgia Tech Yellow Jackets (GT) — #B3A369 accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

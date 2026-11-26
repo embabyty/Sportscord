@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.eastern-michigan-eagles",
+  "name": "Sportscord • Eastern Michigan Eagles",
+  "description": "Eastern Michigan Eagles (EMU) — #006938 accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.tampa-bay-buccaneers",
+  "name": "Sportscord • Tampa Bay Buccaneers",
+  "description": "Tampa Bay Buccaneers (TB) — #D50A0A accents with #FF7900 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

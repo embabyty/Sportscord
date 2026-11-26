@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.louisiana-monroe-warhawks",
+  "name": "Sportscord • Louisiana–Monroe Warhawks",
+  "description": "Louisiana–Monroe Warhawks (ULM) — #840029 accents with #FDB913 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

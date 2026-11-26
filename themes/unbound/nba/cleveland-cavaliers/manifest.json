@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.cleveland-cavaliers",
+  "name": "Sportscord • Cleveland Cavaliers",
+  "description": "Cleveland Cavaliers (CLE) — #FDBB30 accents with #860038 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

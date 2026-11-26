@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.boston-college-eagles",
+  "name": "Sportscord • Boston College Eagles",
+  "description": "Boston College Eagles (BC) — #8C2232 accents with #DBCCA6 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

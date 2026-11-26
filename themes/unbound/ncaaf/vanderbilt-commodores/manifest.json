@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.vanderbilt-commodores",
+  "name": "Sportscord • Vanderbilt Commodores",
+  "description": "Vanderbilt Commodores (VAN) — #BB8D09 accents with #CFAE70 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

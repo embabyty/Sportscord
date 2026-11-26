@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.ohio-bobcats",
+  "name": "Sportscord • Ohio Bobcats",
+  "description": "Ohio Bobcats (OHIO) — #154734 accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.south-florida-bulls",
+  "name": "Sportscord • South Florida Bulls",
+  "description": "South Florida Bulls (USF) — #006747 accents with #CFC493 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

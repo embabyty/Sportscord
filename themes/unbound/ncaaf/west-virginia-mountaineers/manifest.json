@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.west-virginia-mountaineers",
+  "name": "Sportscord • West Virginia Mountaineers",
+  "description": "West Virginia Mountaineers (WVU) — #EAAA00 accents with #002855 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

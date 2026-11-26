@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.duke-blue-devils",
+  "name": "Sportscord • Duke Blue Devils",
+  "description": "Duke Blue Devils (DUKE) — #00539B accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.utah-jazz",
+  "name": "Sportscord • Utah Jazz",
+  "description": "Utah Jazz (UTA) — #F9A01B accents with #002B5C links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.delaware-fightin-blue-hens",
+  "name": "Sportscord • Delaware Fightin’ Blue Hens",
+  "description": "Delaware Fightin’ Blue Hens (DEL) — #00539F accents with #FFD200 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

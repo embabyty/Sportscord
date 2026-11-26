@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.ucla-bruins",
+  "name": "Sportscord • UCLA Bruins",
+  "description": "UCLA Bruins (UCLA) — #2774AE accents with #F2A900 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

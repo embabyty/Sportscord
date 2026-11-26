@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.louisiana-tech-bulldogs",
+  "name": "Sportscord • Louisiana Tech Bulldogs",
+  "description": "Louisiana Tech Bulldogs (LT) — #003087 accents with #CB333B links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

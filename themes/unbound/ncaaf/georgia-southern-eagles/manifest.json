@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.georgia-southern-eagles",
+  "name": "Sportscord • Georgia Southern Eagles",
+  "description": "Georgia Southern Eagles (GASO) — #041E42 accents with #A3AAAE links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

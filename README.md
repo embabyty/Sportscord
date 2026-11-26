@@ -1,9 +1,10 @@
-# NFLcord Themes
+# Sportscord Themes
 
-Vencord themes for all **32 NFL teams**, each dressed in its official team colors.
-Pick your team, drop the file into Vencord, and Discord buttons, mentions,
-links, badges, and highlights take on your team's identity. Works in both
-dark and light mode.
+Vencord themes for all **32 NFL teams**, **30 NBA teams**, and **138 NCAAF
+teams**, each dressed in its official team colors. Pick your team, drop the
+file into Vencord, and Discord buttons, mentions, links, badges, and
+highlights take on your team's identity. Works in both dark and light mode.
+The same palettes are also available as Unbound themes for iOS and Android.
 
 ## Install
 
@@ -12,7 +13,7 @@ dark and light mode.
 1. Download or clone this repo.
 2. In Discord, go to `Settings → Themes → Open Themes Folder`.
 3. Copy `themes/<your-team>.theme.css` into that folder.
-4. Back in `Settings → Themes`, enable it. Use only one NFLcord theme at a time.
+4. Back in `Settings → Themes`, enable it. Use only one Sportscord theme at a time.
 
 **Vencord (web):**
 
@@ -73,6 +74,34 @@ On macOS the UI font switches to
 400/500/700, loaded from Google Fonts at the top of each theme file);
 other platforms keep Discord's default font.
 
+## Unbound for iOS (and Android)
+
+[Unbound](https://unbound.rip/) runs inside the official Discord app on iOS
+(with or without a jailbreak) and on Android. Every team also ships as an
+Unbound theme addon in [`themes/unbound/`](themes/unbound/) — a `manifest.json`
+plus a `bundle.json` palette of Discord color roles, using the same team colors
+as the Vencord themes.
+
+1. Install Unbound into Discord with the [iOS](https://unbound.rip/docs/user/installing)
+   or Android instructions, then confirm the **Unbound** section appears in
+   Discord's settings.
+2. Go to **Settings → Unbound → Design → Themes → + → Install from URL**.
+3. Paste a manifest URL from [`themes/unbound/README.md`](themes/unbound/README.md),
+   or use the pattern
+   `https://raw.githubusercontent.com/embabyty/NFLcord/vencord/themes/unbound/<league>/<team-slug>/manifest.json`
+   (`<league>` is `nfl`, `nba`, or `ncaaf`).
+4. Tap the installed card to apply it, then **restart Discord**. Only one theme
+   applies at a time; tap it again to return to Discord's default colors.
+
+These are dark (Onyx) themes: team color drives brand buttons, selected channel
+rows, mentions, badges, focus rings and controls; links use each theme's link
+color (usually the secondary team color). Regenerate all 200 addons and their
+install-link index with:
+
+```sh
+python3 tools/build_unbound.py
+```
+
 ## Customize
 
 Every theme exposes its palette as CSS variables, so you can tweak it in
@@ -129,6 +158,58 @@ Vencord QuickCSS (`Settings → Themes → QuickCSS`) without editing the file:
 | [Tampa Bay Buccaneers](themes/tampa-bay-buccaneers.theme.css) | TB | NFC South | Red `#D50A0A` | Bucco Orange `#FF7900` |
 | [Tennessee Titans](themes/tennessee-titans.theme.css) | TEN | AFC South | Titans Blue `#4B92DB` | Titans Red `#C8102E` |
 | [Washington Commanders](themes/washington-commanders.theme.css) | WSH | NFC East | Burgundy `#5A1414` | Gold `#FFB612` |
+
+## NBA Themes
+
+The NBA collection brings the same glass styling, accent controls, links,
+channel highlights, and team logo home button to all 30 franchises, dressed in
+their official colors. Enable one NBA theme at a time. Install a file from
+`themes/nba/` with the same Vencord/BetterDiscord steps above.
+
+Regenerate the collection with:
+
+```sh
+python3 tools/build_nba.py
+```
+
+Team colors and logo paths are recorded in `tools/nba_teams.json`; the logo
+images are in `assets/logos/nba/`, so builds do not need network access.
+A few very dark jerseys use a brightened accent so buttons stay visible.
+These are unofficial fan themes; team logos are trademarks of the NBA and its
+franchises.
+
+| Team | Abbr | Division | Accent | Secondary |
+| ---- | ---- | -------- | ------ | --------- |
+| [Atlanta Hawks](themes/nba/atlanta-hawks.theme.css) | ATL | Southeast | Hawks Red `#E13A3E` | Golden Yellow `#C4D600` |
+| [Boston Celtics](themes/nba/boston-celtics.theme.css) | BOS | Atlantic | Celtics Green `#008348` | Gold `#BB9753` |
+| [Brooklyn Nets](themes/nba/brooklyn-nets.theme.css) | BKN | Atlantic | Silver `#C4CED4` | Silver `#C4CED4` |
+| [Charlotte Hornets](themes/nba/charlotte-hornets.theme.css) | CHA | Southeast | Bright Purple `#5933A5` | Teal `#008CA8` |
+| [Chicago Bulls](themes/nba/chicago-bulls.theme.css) | CHI | Central | Bulls Red `#CE1141` | Bulls Red `#CE1141` |
+| [Cleveland Cavaliers](themes/nba/cleveland-cavaliers.theme.css) | CLE | Central | Gold `#FDBB30` | Wine `#860038` |
+| [Dallas Mavericks](themes/nba/dallas-mavericks.theme.css) | DAL | Southwest | Mavericks Blue `#007DC5` | Silver `#C4CED3` |
+| [Denver Nuggets](themes/nba/denver-nuggets.theme.css) | DEN | Northwest | Sky Blue `#4D90CD` | Gold `#FDB927` |
+| [Detroit Pistons](themes/nba/detroit-pistons.theme.css) | DET | Central | Pistons Red `#ED174C` | Pistons Blue `#006BB6` |
+| [Golden State Warriors](themes/nba/golden-state-warriors.theme.css) | GSW | Pacific | Warriors Gold `#FDB927` | Warriors Blue `#006BB6` |
+| [Houston Rockets](themes/nba/houston-rockets.theme.css) | HOU | Southwest | Rockets Red `#CE1141` | Silver `#C4CED3` |
+| [Indiana Pacers](themes/nba/indiana-pacers.theme.css) | IND | Central | Pacers Yellow `#FFC633` | Pacers Navy `#00275D` |
+| [Los Angeles Clippers](themes/nba/los-angeles-clippers.theme.css) | LAC | Pacific | Clippers Red `#ED174C` | Clippers Blue `#006BB6` |
+| [Los Angeles Lakers](themes/nba/los-angeles-lakers.theme.css) | LAL | Pacific | Lakers Gold `#FDB927` | Lakers Purple `#552582` |
+| [Memphis Grizzlies](themes/nba/memphis-grizzlies.theme.css) | MEM | Southwest | Light Blue `#7399C6` | Gold `#FDB927` |
+| [Miami Heat](themes/nba/miami-heat.theme.css) | MIA | Southeast | Heat Orange `#F9A01B` | Heat Red `#98002E` |
+| [Milwaukee Bucks](themes/nba/milwaukee-bucks.theme.css) | MIL | Central | Bright Green `#007A3D` | Cream `#F0EBD2` |
+| [Minnesota Timberwolves](themes/nba/minnesota-timberwolves.theme.css) | MIN | Northwest | Bright Blue `#0079BF` | Wolves Green `#00A94F` |
+| [New Orleans Pelicans](themes/nba/new-orleans-pelicans.theme.css) | NOP | Southwest | Pelicans Red `#E31837` | Gold `#B4975A` |
+| [New York Knicks](themes/nba/new-york-knicks.theme.css) | NYK | Atlantic | Knicks Blue `#006BB6` | Knicks Orange `#F58426` |
+| [Oklahoma City Thunder](themes/nba/oklahoma-city-thunder.theme.css) | OKC | Northwest | Thunder Blue `#007DC3` | Thunder Orange `#F05133` |
+| [Orlando Magic](themes/nba/orlando-magic.theme.css) | ORL | Southeast | Magic Blue `#007DC5` | Silver `#C4CED3` |
+| [Philadelphia 76ers](themes/nba/philadelphia-76ers.theme.css) | PHI | Atlantic | Sixers Red `#ED174C` | Sixers Blue `#006BB6` |
+| [Phoenix Suns](themes/nba/phoenix-suns.theme.css) | PHX | Pacific | Suns Orange `#E56020` | Suns Purple `#1D1160` |
+| [Portland Trail Blazers](themes/nba/portland-trail-blazers.theme.css) | POR | Northwest | Blazers Red `#E03A3E` | Silver `#BAC3C9` |
+| [Sacramento Kings](themes/nba/sacramento-kings.theme.css) | SAC | Pacific | Kings Purple `#724C9F` | Silver `#8E9090` |
+| [San Antonio Spurs](themes/nba/san-antonio-spurs.theme.css) | SAS | Southwest | Spurs Silver `#BAC3C9` | Spurs Silver `#BAC3C9` |
+| [Toronto Raptors](themes/nba/toronto-raptors.theme.css) | TOR | Atlantic | Raptors Red `#CE1141` | Silver `#A1A1A4` |
+| [Utah Jazz](themes/nba/utah-jazz.theme.css) | UTA | Northwest | Jazz Gold `#F9A01B` | Jazz Navy `#002B5C` |
+| [Washington Wizards](themes/nba/washington-wizards.theme.css) | WAS | Southeast | Wizards Red `#E31837` | Silver `#C4CED4` |
 
 ## NCAAF Themes (2026 FBS)
 
@@ -310,17 +391,21 @@ without hurting readability.
 
 ## Regenerating
 
-All themes are generated from `tools/build.py` (team data + one shared
-template), so a fix applies to every team at once:
+All Vencord themes are generated from one shared template in `tools/build.py`
+plus the per-league rosters, so a fix applies to every team at once:
 
 ```sh
-python tools/build.py
+python3 tools/build.py       # NFL (32)
+python3 tools/build_nba.py   # NBA (30)
+python3 tools/build_ncaaf.py # NCAAF (138)
+python3 tools/build_unbound.py # Unbound iOS/Android addons (200)
 ```
 
-Logos live in `assets/logos/` (one PNG per team) and are loaded from this
-repo via `raw.githubusercontent.com`, which is on Vencord's image allowlist —
-no extra setup needed once pushed. If the default branch is ever renamed,
-update `LOGO_BRANCH` in `tools/build.py` and rebuild.
+Logos live in `assets/logos/` (one PNG per team, with `nba/` and `ncaaf/`
+subfolders) and are loaded from this repo via `raw.githubusercontent.com`,
+which is on Vencord's image allowlist — no extra setup needed once pushed.
+If the default branch is ever renamed, update `LOGO_BRANCH` in
+`tools/build.py` and rebuild.
 
-Team logos are trademarks of the NFL and the respective franchises; this is
-an unofficial fan project.
+Team logos are trademarks of the NFL, NBA, NCAA, and the respective teams;
+this is an unofficial fan project.

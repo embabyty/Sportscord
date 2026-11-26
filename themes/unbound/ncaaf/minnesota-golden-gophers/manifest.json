@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.minnesota-golden-gophers",
+  "name": "Sportscord • Minnesota Golden Gophers",
+  "description": "Minnesota Golden Gophers (MINN) — #5E0A2F accents with #FAB41C links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

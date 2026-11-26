@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.dallas-mavericks",
+  "name": "Sportscord • Dallas Mavericks",
+  "description": "Dallas Mavericks (DAL) — #007DC5 accents with #C4CED3 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

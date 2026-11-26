@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.ohio-state-buckeyes",
+  "name": "Sportscord • Ohio State Buckeyes",
+  "description": "Ohio State Buckeyes (OSU) — #BA0C2F accents with #A8ADB4 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

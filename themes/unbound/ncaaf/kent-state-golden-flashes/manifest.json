@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.kent-state-golden-flashes",
+  "name": "Sportscord • Kent State Golden Flashes",
+  "description": "Kent State Golden Flashes (KENT) — #002664 accents with #EAAB00 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

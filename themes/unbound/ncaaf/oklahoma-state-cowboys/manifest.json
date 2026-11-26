@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.oklahoma-state-cowboys",
+  "name": "Sportscord • Oklahoma State Cowboys",
+  "description": "Oklahoma State Cowboys (OKST) — #FE5C00 accents with #000000 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

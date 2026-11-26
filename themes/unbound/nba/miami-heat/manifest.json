@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.miami-heat",
+  "name": "Sportscord • Miami Heat",
+  "description": "Miami Heat (MIA) — #F9A01B accents with #98002E links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

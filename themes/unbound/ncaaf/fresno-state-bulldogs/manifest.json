@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.fresno-state-bulldogs",
+  "name": "Sportscord • Fresno State Bulldogs",
+  "description": "Fresno State Bulldogs (FRES) — #B1102B accents with #13284C links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

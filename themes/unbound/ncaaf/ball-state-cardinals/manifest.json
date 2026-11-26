@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.ball-state-cardinals",
+  "name": "Sportscord • Ball State Cardinals",
+  "description": "Ball State Cardinals (BALL) — #BA0C2F accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

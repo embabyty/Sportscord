@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.baylor-bears",
+  "name": "Sportscord • Baylor Bears",
+  "description": "Baylor Bears (BAY) — #154734 accents with #FFB81C links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

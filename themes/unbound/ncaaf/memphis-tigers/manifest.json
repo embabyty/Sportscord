@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.memphis-tigers",
+  "name": "Sportscord • Memphis Tigers",
+  "description": "Memphis Tigers (MEM) — #004991 accents with #8E908F links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

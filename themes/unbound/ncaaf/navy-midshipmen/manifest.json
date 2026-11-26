@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.navy-midshipmen",
+  "name": "Sportscord • Navy Midshipmen",
+  "description": "Navy Midshipmen (NAVY) — #00225B accents with #B5A67C links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

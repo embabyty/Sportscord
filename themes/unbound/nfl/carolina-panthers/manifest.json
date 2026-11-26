@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.carolina-panthers",
+  "name": "Sportscord • Carolina Panthers",
+  "description": "Carolina Panthers (CAR) — #0085CA accents with #BFC0BF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

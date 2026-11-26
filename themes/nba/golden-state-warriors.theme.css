@@ -1,0 +1,282 @@
+/**
+ * @name NBAcord • Golden State Warriors
+ * @author NBAcord
+ * @version 1.0.0
+ * @description Golden State Warriors (GSW · Pacific Division) — Warriors Gold #FDB927 with Warriors Blue #006BB6. Part of the NBAcord collection covering all 30 NBA teams.
+ * @source https://github.com/embabyty/NFLcord
+ */
+
+/* NBAcord • Golden State Warriors (GSW · Pacific Division)
+ * Colors: Warriors Gold #FDB927 / Warriors Blue #006BB6 (primary #FDB927, secondary #006BB6)
+ * Customize in Vencord QuickCSS, e.g.:
+ * :root { --nba-accent: #ff0000; --nba-accent-text: #ffffff; }
+ * :root { --nba-logo: url("https://i.imgur.com/your-image.png"); }
+ * Vesktop acrylic transparency (Settings → Window → Background Material):
+ * :root { --glass-opacity: 0.55; }  (then fully restart Discord)
+ * Full-transparency dark-acrylic preset (QuickCSS): see presets/ in the repo.
+ */
+
+/* Google Sans webfont (https://fonts.google.com/specimen/Google+Sans).
+ * Loaded once here but applied ONLY on macOS via the html.platform-osx block
+ * at the end of this file — other platforms keep Discord's default font. */
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --nba-primary: #FDB927;
+  --nba-secondary: #006BB6;
+  --nba-accent: #FDB927;
+  --nba-accent-hover: #E4A623;
+  --nba-accent-active: #CA941F;
+  --nba-accent-text: #000000;
+  --nba-tint: #FDB927;
+  --nba-link: #006BB6;
+  --nba-logo: url("https://raw.githubusercontent.com/embabyty/NFLcord/vencord/assets/logos/nba/golden-state-warriors.png");
+  --glass-blur: 20px;
+  --glass-radius: 14px;
+  /* Backdrop opacity. Keep 1 normally; lower it (e.g. 0.55) in QuickCSS when
+     using Vesktop's Background Material (Acrylic) so the blurred wallpaper
+     shows through. A restart is required after changing that setting. */
+  --glass-opacity: 1;
+}
+
+.theme-light,
+.theme-dark {
+  /* legacy brand scale */
+  --brand-experiment: var(--nba-accent) !important;
+  --brand-experiment-360: var(--nba-accent-hover) !important;
+  --brand-experiment-400: var(--nba-accent-hover) !important;
+  --brand-experiment-430: var(--nba-accent) !important;
+  --brand-experiment-460: var(--nba-accent) !important;
+  --brand-experiment-500: var(--nba-accent) !important;
+  --brand-experiment-530: var(--nba-accent) !important;
+  --brand-experiment-560: var(--nba-accent-hover) !important;
+  --brand-experiment-600: var(--nba-accent-active) !important;
+  --brand-experiment-630: var(--nba-accent-active) !important;
+  --brand-345: var(--nba-accent-hover) !important;
+  --brand-360: var(--nba-accent-hover) !important;
+  --brand-400: var(--nba-accent-hover) !important;
+  --brand-430: var(--nba-accent) !important;
+  --brand-460: var(--nba-accent) !important;
+  --brand-500: var(--nba-accent) !important;
+  --brand-500-hsl: 40.9 98.2% 57.3% !important;
+  --brand-530: var(--nba-accent) !important;
+  --brand-560: var(--nba-accent-hover) !important;
+  --brand-560-hsl: 40.7 78.1% 51.6% !important;
+  --brand-600: var(--nba-accent-active) !important;
+  --brand-600-hsl: 41.1 73.4% 45.7% !important;
+  --brand-630: var(--nba-accent-active) !important;
+
+  /* controls, buttons, badges (solid fills use the pure accent) */
+  --control-brand-foreground: var(--nba-accent) !important;
+  --background-brand: var(--nba-accent) !important;
+  --background-accent: var(--nba-accent) !important;
+  --button-brand-background: var(--nba-accent) !important;
+  --button-brand-background-hover: var(--nba-accent-hover) !important;
+  --button-brand-background-active: var(--nba-accent-active) !important;
+  --button-brand-text: var(--nba-accent-text) !important;
+  --button-filled-brand-background: var(--nba-accent) !important;
+  --button-filled-brand-background-hover: var(--nba-accent-hover) !important;
+  --button-filled-brand-background-active: var(--nba-accent-active) !important;
+  --button-filled-brand-text: var(--nba-accent-text) !important;
+  --badge-brand-bg: var(--nba-accent) !important;
+  --badge-brand-text: var(--nba-accent-text) !important;
+  --focus-primary: var(--nba-accent) !important;
+  --border-brand: color-mix(in srgb, var(--nba-accent) 60%, transparent) !important;
+
+  /* soft surfaces keep the team hue at low opacity */
+  --mention-background: color-mix(in srgb, var(--nba-accent) 26%, transparent) !important;
+  --background-mentioned: color-mix(in srgb, var(--nba-accent) 16%, transparent) !important;
+  --background-mentioned-hover: color-mix(in srgb, var(--nba-accent) 24%, transparent) !important;
+  --background-message-highlight: color-mix(in srgb, var(--nba-accent) 12%, transparent) !important;
+  --background-message-highlight-hover: color-mix(in srgb, var(--nba-accent) 18%, transparent) !important;
+
+  /* channel list (and member/settings) rows in full team color.
+     Selected mixes the accent toward the on-accent text color so the row
+     looks solid while the channel name stays readable on every team. */
+  --background-modifier-hover: color-mix(in srgb, var(--nba-accent) 18%, transparent) !important;
+  --background-modifier-active: color-mix(in srgb, var(--nba-accent) 32%, transparent) !important;
+  --background-modifier-selected: color-mix(in srgb, var(--nba-accent) 62%, var(--nba-accent-text)) !important;
+}
+
+/* text on top of backgrounds: nudge the hue toward white/black per mode */
+.theme-dark {
+  --nba-sidebar: #594C2F;
+  /* whole-UI translucent surfaces (chat, headers, inputs, popouts, modals) */
+  --glass-chat: color-mix(in srgb, color-mix(in srgb, var(--nba-tint) 14%, #191c23) 78%, transparent) !important;
+  --glass-float: color-mix(in srgb, #20232c 84%, transparent) !important;
+  --background-primary: var(--glass-chat) !important;
+  --background-secondary: color-mix(in srgb, var(--nba-sidebar) 68%, transparent) !important;
+  --background-secondary-alt: color-mix(in srgb, var(--nba-sidebar) 60%, transparent) !important;
+  --background-tertiary: var(--glass-chat) !important;
+  --background-floating: var(--glass-float) !important;
+  --modal-background: var(--glass-float) !important;
+  --modal-footer-background: transparent !important;
+  --home-background: var(--glass-chat) !important;
+  --channeltextarea-background: color-mix(in srgb, #26282f 72%, transparent) !important;
+  --input-background: color-mix(in srgb, #1d1f26 70%, transparent) !important;
+  --background-message-hover: color-mix(in srgb, var(--nba-accent) 9%, transparent) !important;
+  --glass-backdrop:
+    radial-gradient(1100px 750px at 12% -8%, color-mix(in srgb, var(--nba-accent) 30%, transparent), transparent 62%),
+    radial-gradient(950px 700px at 108% 108%, color-mix(in srgb, var(--nba-tint) 32%, transparent), transparent 60%),
+    linear-gradient(160deg, rgba(17, 20, 27, var(--glass-opacity)) 0%, rgba(11, 14, 20, var(--glass-opacity)) 55%, rgba(12, 15, 22, var(--glass-opacity)) 100%) !important;
+  --glass-bg: color-mix(in srgb, var(--nba-sidebar) 58%, transparent) !important;
+  --glass-edge: rgba(255, 255, 255, 0.09) !important;
+  --glass-highlight: rgba(255, 255, 255, 0.10) !important;
+  --text-brand: color-mix(in srgb, var(--nba-accent) 60%, white) !important;
+  --text-link: color-mix(in srgb, var(--nba-link) 80%, white) !important;
+  --mention-foreground: color-mix(in srgb, var(--nba-accent) 45%, white) !important;
+}
+
+.theme-light {
+  --nba-sidebar: #F5E5C4;
+  /* whole-UI translucent surfaces (chat, headers, inputs, popouts, modals) */
+  --glass-chat: color-mix(in srgb, color-mix(in srgb, var(--nba-tint) 12%, #f4f5f8) 80%, transparent) !important;
+  --glass-float: color-mix(in srgb, #ffffff 86%, transparent) !important;
+  --background-primary: var(--glass-chat) !important;
+  --background-secondary: color-mix(in srgb, var(--nba-sidebar) 68%, transparent) !important;
+  --background-secondary-alt: color-mix(in srgb, var(--nba-sidebar) 60%, transparent) !important;
+  --background-tertiary: var(--glass-chat) !important;
+  --background-floating: var(--glass-float) !important;
+  --modal-background: var(--glass-float) !important;
+  --modal-footer-background: transparent !important;
+  --home-background: var(--glass-chat) !important;
+  --channeltextarea-background: color-mix(in srgb, #ebedef 75%, transparent) !important;
+  --input-background: color-mix(in srgb, #e3e5e8 72%, transparent) !important;
+  --background-message-hover: color-mix(in srgb, var(--nba-accent) 9%, transparent) !important;
+  --glass-backdrop:
+    radial-gradient(1100px 750px at 12% -8%, color-mix(in srgb, var(--nba-accent) 22%, transparent), transparent 62%),
+    radial-gradient(950px 700px at 108% 108%, color-mix(in srgb, var(--nba-tint) 26%, transparent), transparent 60%),
+    linear-gradient(160deg, rgba(238, 240, 245, var(--glass-opacity)) 0%, rgba(226, 230, 238, var(--glass-opacity)) 55%, rgba(223, 227, 235, var(--glass-opacity)) 100%) !important;
+  --glass-bg: color-mix(in srgb, var(--nba-sidebar) 50%, rgba(255, 255, 255, 0.5)) !important;
+  --glass-edge: rgba(15, 20, 30, 0.10) !important;
+  --glass-highlight: rgba(255, 255, 255, 0.55) !important;
+  --text-brand: color-mix(in srgb, var(--nba-accent) 78%, black) !important;
+  --text-link: color-mix(in srgb, var(--nba-link) 78%, black) !important;
+  --mention-foreground: color-mix(in srgb, var(--nba-accent) 80%, black) !important;
+}
+
+/* ===== liquid glass: whole Discord UI =====
+ * A team-tinted backdrop glows behind the app. The server rail, channel
+ * list, member list, and chat become floating frosted-glass panels, while
+ * every other surface (headers, inputs, popouts, modals, settings, friends)
+ * turns translucent through the variables above.
+ * Blur is kept to the mostly-static outer panels for performance; the chat
+ * column stays unblurred so scrolling stays smooth and messages readable.
+ * NOTE: single-underscore substring selectors (e.g. guilds_) match both the
+ * current (guilds_abc12) and legacy (guilds__abc12) Discord class formats. */
+body {
+  background: var(--glass-backdrop) !important;
+}
+
+html,
+#app-mount,
+#app-mount > div,
+#app-mount > div > div,
+#app-mount [class*="app_"],
+#app-mount [class*="app-"],
+#app-mount [class*="bg_"],
+#app-mount [class*="bg-"] {
+  background: transparent !important;
+}
+
+[class*="guilds_"],
+[class*="sidebarList_"],
+[class*="membersWrap_"] {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(var(--glass-blur)) saturate(1.25);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(1.25);
+  border-radius: var(--glass-radius);
+  overflow: hidden;
+  box-shadow:
+    inset 0 0 0 1px var(--glass-edge),
+    inset 0 1px 0 var(--glass-highlight),
+    0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+[class*="guilds_"] {
+  margin: 10px 0 10px 10px;
+}
+
+[class*="sidebarList_"] {
+  margin: 10px;
+}
+
+[class*="membersWrap_"] {
+  margin: 10px 10px 10px 0;
+}
+
+/* chat column as a floating panel (translucent, unblurred for smooth scroll) */
+[class*="chat_"] {
+  background: var(--glass-chat) !important;
+  border-radius: var(--glass-radius);
+  overflow: hidden;
+  margin: 10px 10px 10px 0;
+  box-shadow:
+    inset 0 0 0 1px var(--glass-edge),
+    inset 0 1px 0 var(--glass-highlight),
+    0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+/* inner containers must not repaint over the glass */
+[class*="guilds_"] div[class*="scroller_"],
+[class*="sidebarList_"] div[class*="container_"],
+[class*="sidebarList_"] div[class*="scroller_"],
+[class*="membersWrap_"] > div {
+  background: transparent !important;
+}
+
+::selection {
+  background: var(--nba-accent) !important;
+  color: var(--nba-accent-text) !important;
+}
+
+/* team logo as the Discord home button (top of the server list) */
+[data-list-item-id="guildsnav___home"] > [class*="childWrapper_"],
+[class*="tutorialContainer_"] [class*="childWrapper_"] {
+  background-color: transparent !important;
+  background-image: var(--nba-logo) !important;
+  background-size: 88% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+[data-list-item-id="guildsnav___home"] [class*="childWrapper_"] > svg,
+[class*="tutorialContainer_"] [class*="childWrapper_"] > svg {
+  display: none !important;
+}
+
+/* ===== macOS support (opaque, no mica / no blur) =====
+ * Vesktop/Vencord on macOS exposes no Acrylic/Mica background material, so
+ * this block deliberately adds NO vibrancy, mica, or backdrop blur. The theme
+ * keeps its normal opaque team-tinted surfaces; this only (1) switches the
+ * frosted panels to their solid fallback so nothing depends on OS
+ * transparency, (2) keeps the native traffic lights clickable and the window
+ * draggable, (3) enables macOS font smoothing, and (4) switches the UI font
+ * to Google Sans (see the @import at the top of this file) — macOS only.
+ * Team colors, logo, and layout are unchanged. */
+html.platform-osx {
+  --glass-opacity: 1;
+  --font-primary: "Google Sans", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  --font-display: "Google Sans", -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+html.platform-osx [class*="guilds_"],
+html.platform-osx [class*="sidebarList_"],
+html.platform-osx [class*="membersWrap_"] {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+html.platform-osx [class*="titleBar_"] {
+  -webkit-app-region: drag;
+}
+
+html.platform-osx [class*="titleBar_"] button,
+html.platform-osx [class*="titleBar_"] a {
+  -webkit-app-region: no-drag;
+}
+
+html.platform-osx body {
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+}

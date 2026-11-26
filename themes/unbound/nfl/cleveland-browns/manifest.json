@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.cleveland-browns",
+  "name": "Sportscord • Cleveland Browns",
+  "description": "Cleveland Browns (CLE) — #FF3C00 throughout. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

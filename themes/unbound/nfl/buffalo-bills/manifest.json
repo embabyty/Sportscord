@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.buffalo-bills",
+  "name": "Sportscord • Buffalo Bills",
+  "description": "Buffalo Bills (BUF) — #00338D accents with #C60C30 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

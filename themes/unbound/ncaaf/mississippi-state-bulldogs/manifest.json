@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.mississippi-state-bulldogs",
+  "name": "Sportscord • Mississippi State Bulldogs",
+  "description": "Mississippi State Bulldogs (MSST) — #5D1725 accents with #C1C6C8 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

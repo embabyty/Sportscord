@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.memphis-grizzlies",
+  "name": "Sportscord • Memphis Grizzlies",
+  "description": "Memphis Grizzlies (MEM) — #7399C6 accents with #FDB927 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

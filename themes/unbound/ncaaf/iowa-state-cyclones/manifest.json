@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.iowa-state-cyclones",
+  "name": "Sportscord • Iowa State Cyclones",
+  "description": "Iowa State Cyclones (ISU) — #AE192D accents with #FFC72A links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

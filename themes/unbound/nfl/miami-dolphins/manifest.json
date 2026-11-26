@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.miami-dolphins",
+  "name": "Sportscord • Miami Dolphins",
+  "description": "Miami Dolphins (MIA) — #008E97 accents with #FC4C02 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.texas-longhorns",
+  "name": "Sportscord • Texas Longhorns",
+  "description": "Texas Longhorns (TEX) — #AF5C37 accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

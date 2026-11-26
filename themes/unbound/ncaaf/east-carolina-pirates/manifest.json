@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.east-carolina-pirates",
+  "name": "Sportscord • East Carolina Pirates",
+  "description": "East Carolina Pirates (ECU) — #582C83 accents with #FFC72C links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

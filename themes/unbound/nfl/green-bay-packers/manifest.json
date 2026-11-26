@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.green-bay-packers",
+  "name": "Sportscord • Green Bay Packers",
+  "description": "Green Bay Packers (GB) — #203731 accents with #FFB612 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

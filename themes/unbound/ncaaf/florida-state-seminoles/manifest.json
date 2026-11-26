@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.florida-state-seminoles",
+  "name": "Sportscord • Florida State Seminoles",
+  "description": "Florida State Seminoles (FSU) — #782F40 accents with #CEB888 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

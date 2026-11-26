@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.unlv-rebels",
+  "name": "Sportscord • UNLV Rebels",
+  "description": "UNLV Rebels (UNLV) — #CF0A2C accents with #CAC8C8 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

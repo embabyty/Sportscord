@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.notre-dame-fighting-irish",
+  "name": "Sportscord • Notre Dame Fighting Irish",
+  "description": "Notre Dame Fighting Irish (ND) — #062340 accents with #C99700 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

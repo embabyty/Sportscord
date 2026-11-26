@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.uconn-huskies",
+  "name": "Sportscord • UConn Huskies",
+  "description": "UConn Huskies (CONN) — #0C2340 accents with #A2AAAD links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

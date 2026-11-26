@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.tennessee-volunteers",
+  "name": "Sportscord • Tennessee Volunteers",
+  "description": "Tennessee Volunteers (TENN) — #FF8200 accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

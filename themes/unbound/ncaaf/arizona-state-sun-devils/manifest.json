@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.arizona-state-sun-devils",
+  "name": "Sportscord • Arizona State Sun Devils",
+  "description": "Arizona State Sun Devils (ASU) — #FFC627 accents with #8C1D40 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

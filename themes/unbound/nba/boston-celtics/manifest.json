@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.boston-celtics",
+  "name": "Sportscord • Boston Celtics",
+  "description": "Boston Celtics (BOS) — #008348 accents with #BB9753 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

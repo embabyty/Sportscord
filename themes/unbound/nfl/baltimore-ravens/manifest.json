@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.baltimore-ravens",
+  "name": "Sportscord • Baltimore Ravens",
+  "description": "Baltimore Ravens (BAL) — #241773 accents with #9E7C0C links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nfl.philadelphia-eagles",
+  "name": "Sportscord • Philadelphia Eagles",
+  "description": "Philadelphia Eagles (PHI) — #004C54 accents with #A5ACAF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

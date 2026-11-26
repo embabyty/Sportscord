@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.san-jose-state-spartans",
+  "name": "Sportscord • San Jose State Spartans",
+  "description": "San Jose State Spartans (SJSU) — #0038A8 accents with #FFB81A links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

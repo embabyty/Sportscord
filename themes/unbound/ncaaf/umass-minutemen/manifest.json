@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.umass-minutemen",
+  "name": "Sportscord • UMass Minutemen",
+  "description": "UMass Minutemen (MASS) — #881C1C accents with #FFFFFF links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.virginia-cavaliers",
+  "name": "Sportscord • Virginia Cavaliers",
+  "description": "Virginia Cavaliers (UVA) — #232D4B accents with #F84C1E links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

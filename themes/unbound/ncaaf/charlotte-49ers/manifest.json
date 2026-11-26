@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.charlotte-49ers",
+  "name": "Sportscord • Charlotte 49ers",
+  "description": "Charlotte 49ers (CLT) — #005035 accents with #A49665 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

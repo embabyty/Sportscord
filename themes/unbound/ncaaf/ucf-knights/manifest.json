@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.ucf-knights",
+  "name": "Sportscord • UCF Knights",
+  "description": "UCF Knights (UCF) — #B4985A accents with #B4A169 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

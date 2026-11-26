@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.orlando-magic",
+  "name": "Sportscord • Orlando Magic",
+  "description": "Orlando Magic (ORL) — #007DC5 accents with #C4CED3 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

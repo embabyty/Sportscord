@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.western-michigan-broncos",
+  "name": "Sportscord • Western Michigan Broncos",
+  "description": "Western Michigan Broncos (WMU) — #532E1F accents with #F1C500 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

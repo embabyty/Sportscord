@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.troy-trojans",
+  "name": "Sportscord • Troy Trojans",
+  "description": "Troy Trojans (TROY) — #862633 accents with #B1B1B1 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

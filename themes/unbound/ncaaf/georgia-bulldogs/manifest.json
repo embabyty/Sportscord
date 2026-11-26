@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.ncaaf.georgia-bulldogs",
+  "name": "Sportscord • Georgia Bulldogs",
+  "description": "Georgia Bulldogs (UGA) — #BA0C2F accents with #2C2A29 links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sportscord.nba.new-orleans-pelicans",
+  "name": "Sportscord • New Orleans Pelicans",
+  "description": "New Orleans Pelicans (NOP) — #E31837 accents with #B4975A links. Unofficial fan theme for Unbound.",
+  "authors": [
+    {
+      "name": "Sportscord",
+      "id": "0"
+    }
+  ],
+  "version": "1.0.0",
+  "main": "bundle.json"
+}
