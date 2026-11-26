@@ -17,8 +17,13 @@ from the same team colors as the Vencord collection.
 Themes are dark (Onyx/"midnight" base) and use the team accent for brand
 buttons, selected channel rows, mentions, badges, focus rings and controls,
 with each theme's link color (usually the secondary team color) for links.
-Edit any `bundle.json` and reinstall to tweak the palette; colors you leave
-out keep Discord's defaults.
+Unread text channels, their unread dot, and the "new messages" bar use a
+readable version of the team accent, while read channels stay neutral. The
+chat text box has a bright team-colored outline that brightens when focused.
+The DM list, server/home screens and chat use solid team-tinted backgrounds;
+the team logo is the chat backdrop (turn it off in **Design → Chat** for color
+only). Edit any `bundle.json` and reinstall to tweak the palette; colors you
+leave out keep Discord's defaults.
 
 If the default branch is renamed, update `RAW_BASE` in `tools/build_unbound.py`
 and rebuild — the URLs below are generated from it.

@@ -95,7 +95,12 @@ as the Vencord themes.
 
 These are dark (Onyx) themes: team color drives brand buttons, selected channel
 rows, mentions, badges, focus rings and controls; links use each theme's link
-color (usually the secondary team color). Regenerate all 200 addons and their
+color (usually the secondary team color). Unread text channels, their unread
+dot, and the "new messages" bar use a readable version of the team accent,
+while read channels stay neutral. The chat text box has a bright team-colored
+outline that brightens when focused. The DM list, server/home screens and chat
+use solid team-tinted backgrounds with the team logo as the chat backdrop
+(turnable off in **Design → Chat**). Regenerate all 200 addons and their
 install-link index with:
 
 ```sh

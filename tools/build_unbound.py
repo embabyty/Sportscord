@@ -28,6 +28,7 @@ NCAAF_ROSTER = ROOT / "tools" / "ncaaf_teams.json"
 RAW_BASE = (
     f"https://raw.githubusercontent.com/embabyty/NFLcord/{shared.LOGO_BRANCH}/themes/unbound"
 )
+LOGO_BASE = f"https://raw.githubusercontent.com/embabyty/NFLcord/{shared.LOGO_BRANCH}/assets/logos"
 
 # Dark, team-tinted surfaces. Small tint ratios keep text readable while the
 # team color still comes through on every panel.
@@ -66,15 +67,25 @@ def text_on(color: str) -> str:
     )
 
 
-def palette(accent: str, tint: str, link: str) -> dict:
+def palette(accent: str, tint: str, link: str, logo_url: str) -> dict:
     """Build the semantic/raw palette for one team (dark base)."""
     accent = accent.upper()
     tint = tint.upper() if tint.upper() not in ("#000000", "#FFFFFF") else accent
     link = link.upper()
 
     surface = {name: shared.mix_hex(base, tint, ratio) for name, (base, ratio) in SURFACES.items()}
+    # Solid, team-tinted backgrounds for the DM list, server/home screens and
+    # the chat color. Opaque hex keeps panels solid rather than translucent.
+    dm_surface = shared.mix_hex(surface["lower"], accent, 0.28)
+    home_surface = shared.mix_hex(surface["base"], accent, 0.34)
     brand = readable(accent, target=3.0)  # actionable brand color on a dark UI
+    brand_lift = shared.mix_hex(brand, "#FFFFFF", 0.25)
     brand_text = text_on(brand)
+    # Discord uses INTERACTIVE_ACTIVE for unread channel text and its unread
+    # dot (as well as the selected channel). Lift the team color so the row
+    # stays legible on dark and accent-tinted surfaces; hover is a shade lighter.
+    unread = readable(accent, target=4.5)
+    unread_hover = shared.mix_hex(unread, "#FFFFFF", 0.25)
 
     a = lambda fraction: alpha(accent, fraction)  # noqa: E731 - local shorthand
     w = lambda fraction: alpha("#FFFFFF", fraction)  # noqa: E731 - local shorthand
@@ -84,16 +95,17 @@ def palette(accent: str, tint: str, link: str) -> dict:
         "BACKGROUND_BASE_LOWEST": surface["lowest"],
         "BACKGROUND_BASE_LOWER": surface["lower"],
         "BACKGROUND_BASE_LOW": surface["low"],
-        "BACKGROUND_PRIMARY": surface["lower"],
-        "BACKGROUND_SECONDARY": surface["base"],
+        "BACKGROUND_PRIMARY": dm_surface,
+        "BACKGROUND_SECONDARY": home_surface,
         "BACKGROUND_SECONDARY_ALT": surface["low"],
         "BACKGROUND_TERTIARY": surface["low"],
         "BACKGROUND_FLOATING": surface["high"],
         "BACKGROUND_NESTED_FLOATING": surface["highest"],
         "BACKGROUND_SURFACE_HIGH": surface["high"],
         "BACKGROUND_SURFACE_HIGHEST": surface["highest"],
-        "BACKGROUND_MOBILE_PRIMARY": surface["lower"],
-        "BACKGROUND_MOBILE_SECONDARY": surface["base"],
+        "BACKGROUND_MOBILE_PRIMARY": dm_surface,
+        "BACKGROUND_MOBILE_SECONDARY": dm_surface,
+        "HOME_BACKGROUND": home_surface,
         "BACKGROUND_ACCENT": shared.mix_hex(surface["high"], accent, 0.22),
         "BACKGROUND_BRAND": brand,
         "BACKGROUND_SCRIM": alpha(shared.mix_hex("#000000", tint, 0.20), 0.80),
@@ -110,7 +122,7 @@ def palette(accent: str, tint: str, link: str) -> dict:
         "BORDER_FOCUS": brand,
         "APP_FRAME_BORDER": w(0.12),
         # Channel list, chat and composer
-        "CHANNEL_BACKGROUND_DEFAULT": surface["lower"],
+        "CHANNEL_BACKGROUND_DEFAULT": dm_surface,
         "CHANNELS_DEFAULT": "#A8ABB5",
         "CHANNEL_ICON": "#82858F",
         "CHAT_BACKGROUND": surface["low"],
@@ -123,6 +135,13 @@ def palette(accent: str, tint: str, link: str) -> dict:
         "CHAT_INPUT_SEND_BUTTON_ICON_ACTIVE_TINT": brand_text,
         "MOBILE_CHATINPUT_BACKGROUND_DEFAULT": surface["base"],
         "MOBILE_CHATINPUT_BACKGROUND_ACTIVE": shared.mix_hex(surface["base"], accent, 0.12),
+        # Bright team-colored outline around the chat text box; generic input
+        # fields (settings, search) get the same treatment.
+        "MOBILE_CHATINPUT_BORDER_DEFAULT": alpha(brand, 0.85),
+        "MOBILE_CHATINPUT_BORDER_ACTIVE": brand_lift,
+        "INPUT_BORDER_DEFAULT": alpha(brand, 0.85),
+        "INPUT_BORDER_HOVER": brand,
+        "INPUT_BORDER_ACTIVE": brand_lift,
         "MOBILE_CHANNEL_ITEM_BACKGROUND_SELECTED": a(0.45),
         "MOBILE_HEADER_BORDER": w(0.08),
         "MOBILE_EMBED_BACKGROUND_DEFAULT": surface["high"],
@@ -142,7 +161,8 @@ def palette(accent: str, tint: str, link: str) -> dict:
         "MESSAGE_BACKGROUND_HOVER": a(0.08),
         "MESSAGE_MENTIONED_BACKGROUND_DEFAULT": a(0x1F / 255),
         "MENTION_BACKGROUND": a(0.33),
-        "MENTION_FOREGROUND": readable(accent, target=4.5),
+        "MENTION_FOREGROUND": unread,
+        "MOBILE_UNREADBAR_TEXT_DEFAULT": unread,
         # Text
         "TEXT_DEFAULT": "#F2F3F5",
         "TEXT_NORMAL": "#F2F3F5",
@@ -161,15 +181,15 @@ def palette(accent: str, tint: str, link: str) -> dict:
         "ICON_SUBTLE": "#6D7079",
         "ICON_BRAND": readable(accent),
         "INTERACTIVE_NORMAL": "#A8ABB5",
-        "INTERACTIVE_HOVER": "#F2F3F5",
-        "INTERACTIVE_ACTIVE": "#FFFFFF",
+        "INTERACTIVE_HOVER": unread_hover,
+        "INTERACTIVE_ACTIVE": unread,  # unread channel name + unread dot
         "INTERACTIVE_MUTED": "#6D7079",
         "INTERACTIVE_ICON_DEFAULT": "#A8ABB5",
-        "INTERACTIVE_ICON_HOVER": "#F2F3F5",
-        "INTERACTIVE_ICON_ACTIVE": "#FFFFFF",
+        "INTERACTIVE_ICON_HOVER": unread_hover,
+        "INTERACTIVE_ICON_ACTIVE": unread,
         "INTERACTIVE_TEXT_DEFAULT": "#A8ABB5",
-        "INTERACTIVE_TEXT_HOVER": "#F2F3F5",
-        "INTERACTIVE_TEXT_ACTIVE": "#FFFFFF",
+        "INTERACTIVE_TEXT_HOVER": unread_hover,
+        "INTERACTIVE_TEXT_ACTIVE": unread,
         "INTERACTIVE_BACKGROUND_HOVER": w(0.08),
         "INTERACTIVE_BACKGROUND_ACTIVE": w(0.13),
         "INTERACTIVE_BACKGROUND_SELECTED": a(0.33),
@@ -224,6 +244,10 @@ def palette(accent: str, tint: str, link: str) -> dict:
 
     return {
         "type": "midnight",
+        # Unbound's one image slot is the chat backdrop; DMs/Servers screens
+        # use the solid team-tinted colors above. Users can turn the logo off
+        # in Design → Chat without losing the colors.
+        "background": {"url": logo_url, "blur": 8, "opacity": 0.28},
         "semantic": {name: {"type": "color", "value": value} for name, value in semantic.items()},
         "raw": raw,
     }
@@ -257,11 +281,14 @@ def write_team(team: dict, league: str) -> str:
     folder.mkdir(parents=True, exist_ok=True)
     accent = team["accent"].upper()
     tint = team.get("tint", team["primary"]).upper()
+    # NFL logos live at the root of assets/logos/; NBA and NCAAF have subfolders.
+    logo_dir = "" if league == "nfl" else f"{league}/"
+    logo_url = f"{LOGO_BASE}/{logo_dir}{team['slug']}.png"
     (folder / "manifest.json").write_text(
         json.dumps(addon(team, league), indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
     (folder / "bundle.json").write_text(
-        json.dumps(palette(accent, tint, team["link"]), indent=2, ensure_ascii=False) + "\n",
+        json.dumps(palette(accent, tint, team["link"], logo_url), indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
     return f"{RAW_BASE}/{league}/{team['slug']}/manifest.json"
@@ -310,8 +337,13 @@ from the same team colors as the Vencord collection.
 Themes are dark (Onyx/\"midnight\" base) and use the team accent for brand
 buttons, selected channel rows, mentions, badges, focus rings and controls,
 with each theme's link color (usually the secondary team color) for links.
-Edit any `bundle.json` and reinstall to tweak the palette; colors you leave
-out keep Discord's defaults.
+Unread text channels, their unread dot, and the "new messages" bar use a
+readable version of the team accent, while read channels stay neutral. The
+chat text box has a bright team-colored outline that brightens when focused.
+The DM list, server/home screens and chat use solid team-tinted backgrounds;
+the team logo is the chat backdrop (turn it off in **Design → Chat** for color
+only). Edit any `bundle.json` and reinstall to tweak the palette; colors you
+leave out keep Discord's defaults.
 
 If the default branch is renamed, update `RAW_BASE` in `tools/build_unbound.py`
 and rebuild — the URLs below are generated from it.

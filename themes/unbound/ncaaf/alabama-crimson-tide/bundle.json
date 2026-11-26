@@ -1,5 +1,10 @@
 {
   "type": "midnight",
+  "background": {
+    "url": "https://raw.githubusercontent.com/embabyty/NFLcord/vencord/assets/logos/ncaaf/alabama-crimson-tide.png",
+    "blur": 8,
+    "opacity": 0.28
+  },
   "semantic": {
     "BACKGROUND_BASE_LOWEST": {
       "type": "color",
@@ -15,11 +20,11 @@
     },
     "BACKGROUND_PRIMARY": {
       "type": "color",
-      "value": "#170C12"
+      "value": "#3D101B"
     },
     "BACKGROUND_SECONDARY": {
       "type": "color",
-      "value": "#281822"
+      "value": "#501927"
     },
     "BACKGROUND_SECONDARY_ALT": {
       "type": "color",
@@ -47,11 +52,15 @@
     },
     "BACKGROUND_MOBILE_PRIMARY": {
       "type": "color",
-      "value": "#170C12"
+      "value": "#3D101B"
     },
     "BACKGROUND_MOBILE_SECONDARY": {
       "type": "color",
-      "value": "#281822"
+      "value": "#3D101B"
+    },
+    "HOME_BACKGROUND": {
+      "type": "color",
+      "value": "#501927"
     },
     "BACKGROUND_ACCENT": {
       "type": "color",
@@ -115,7 +124,7 @@
     },
     "CHANNEL_BACKGROUND_DEFAULT": {
       "type": "color",
-      "value": "#170C12"
+      "value": "#3D101B"
     },
     "CHANNELS_DEFAULT": {
       "type": "color",
@@ -164,6 +173,26 @@
     "MOBILE_CHATINPUT_BACKGROUND_ACTIVE": {
       "type": "color",
       "value": "#361824"
+    },
+    "MOBILE_CHATINPUT_BORDER_DEFAULT": {
+      "type": "color",
+      "value": "#AD3D51D9"
+    },
+    "MOBILE_CHATINPUT_BORDER_ACTIVE": {
+      "type": "color",
+      "value": "#C26E7C"
+    },
+    "INPUT_BORDER_DEFAULT": {
+      "type": "color",
+      "value": "#AD3D51D9"
+    },
+    "INPUT_BORDER_HOVER": {
+      "type": "color",
+      "value": "#AD3D51"
+    },
+    "INPUT_BORDER_ACTIVE": {
+      "type": "color",
+      "value": "#C26E7C"
     },
     "MOBILE_CHANNEL_ITEM_BACKGROUND_SELECTED": {
       "type": "color",
@@ -241,6 +270,10 @@
       "type": "color",
       "value": "#BB5F70"
     },
+    "MOBILE_UNREADBAR_TEXT_DEFAULT": {
+      "type": "color",
+      "value": "#BB5F70"
+    },
     "TEXT_DEFAULT": {
       "type": "color",
       "value": "#F2F3F5"
@@ -307,11 +340,11 @@
     },
     "INTERACTIVE_HOVER": {
       "type": "color",
-      "value": "#F2F3F5"
+      "value": "#CC8794"
     },
     "INTERACTIVE_ACTIVE": {
       "type": "color",
-      "value": "#FFFFFF"
+      "value": "#BB5F70"
     },
     "INTERACTIVE_MUTED": {
       "type": "color",
@@ -323,11 +356,11 @@
     },
     "INTERACTIVE_ICON_HOVER": {
       "type": "color",
-      "value": "#F2F3F5"
+      "value": "#CC8794"
     },
     "INTERACTIVE_ICON_ACTIVE": {
       "type": "color",
-      "value": "#FFFFFF"
+      "value": "#BB5F70"
     },
     "INTERACTIVE_TEXT_DEFAULT": {
       "type": "color",
@@ -335,11 +368,11 @@
     },
     "INTERACTIVE_TEXT_HOVER": {
       "type": "color",
-      "value": "#F2F3F5"
+      "value": "#CC8794"
     },
     "INTERACTIVE_TEXT_ACTIVE": {
       "type": "color",
-      "value": "#FFFFFF"
+      "value": "#BB5F70"
     },
     "INTERACTIVE_BACKGROUND_HOVER": {
       "type": "color",
